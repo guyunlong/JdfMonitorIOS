@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EFEFD85D0A0EF21E62ECD83 /* libPods-JdfMonitorIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 596834DF936995244C0A3316 /* libPods-JdfMonitorIOS.a */; };
+		A43BF5A7205029FB00D2ABD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A43BF5A6205029FB00D2ABD2 /* AppDelegate.m */; };
+		A43BF5AA205029FB00D2ABD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43BF5A9205029FB00D2ABD2 /* ViewController.m */; };
+		A43BF5AD205029FB00D2ABD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43BF5AB205029FB00D2ABD2 /* Main.storyboard */; };
+		A43BF5AF205029FB00D2ABD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A43BF5AE205029FB00D2ABD2 /* Assets.xcassets */; };
+		A43BF5B2205029FB00D2ABD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43BF5B0205029FB00D2ABD2 /* LaunchScreen.storyboard */; };
+		A43BF5B5205029FB00D2ABD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A43BF5B4205029FB00D2ABD2 /* main.m */; };
+		A43BF5BF205029FC00D2ABD2 /* JdfMonitorIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43BF5BE205029FC00D2ABD2 /* JdfMonitorIOSTests.m */; };
+		A43BF5CA205029FC00D2ABD2 /* JdfMonitorIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43BF5C9205029FC00D2ABD2 /* JdfMonitorIOSUITests.m */; };
+		A43BF5E020502B8B00D2ABD2 /* MainTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43BF5DF20502B8B00D2ABD2 /* MainTabController.m */; };
+		A43BF5E420502BF500D2ABD2 /* HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43BF5E220502BF500D2ABD2 /* HomePageController.m */; };
+		A43BF5E520502BF500D2ABD2 /* HomePageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43BF5E320502BF500D2ABD2 /* HomePageController.xib */; };
+		A43BF5EB20502C4900D2ABD2 /* ScheduleController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43BF5EA20502C4900D2ABD2 /* ScheduleController.m */; };
+		A43BF5F120502CB300D2ABD2 /* TaskController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43BF5F020502CB300D2ABD2 /* TaskController.m */; };
+		A43BF5F420502CD200D2ABD2 /* StoreKeeperController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43BF5F320502CD200D2ABD2 /* StoreKeeperController.m */; };
+		A43BF5F720502CE600D2ABD2 /* InformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43BF5F620502CE600D2ABD2 /* InformationController.m */; };
+		A49EF9B9205179F100676114 /* TableHeaderSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = A49EF9B8205179F100676114 /* TableHeaderSelectView.m */; };
+		A49EF9C020517A6C00676114 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = A49EF9BD20517A6B00676114 /* UIColor+expanded.m */; };
+		A49EF9C120517A6C00676114 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A49EF9BF20517A6C00676114 /* UIView+Common.m */; };
+		A49EF9C420517F9000676114 /* EquipmentMonitorController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49EF9C320517F9000676114 /* EquipmentMonitorController.m */; };
+		A49EF9C720517FC200676114 /* VidController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49EF9C620517FC200676114 /* VidController.m */; };
+		A49EF9CA20517FE300676114 /* ComputerRoomInspectController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49EF9C920517FE300676114 /* ComputerRoomInspectController.m */; };
+		A49EF9CD2051800200676114 /* JobsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49EF9CC2051800200676114 /* JobsController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A43BF5BB205029FC00D2ABD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A43BF59A205029FB00D2ABD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43BF5A1205029FB00D2ABD2;
+			remoteInfo = JdfMonitorIOS;
+		};
+		A43BF5C6205029FC00D2ABD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A43BF59A205029FB00D2ABD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43BF5A1205029FB00D2ABD2;
+			remoteInfo = JdfMonitorIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B3959825C63B8A48B5E330 /* Pods-JdfMonitorIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JdfMonitorIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JdfMonitorIOS/Pods-JdfMonitorIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2855C5486E0F8F152FE782A3 /* Pods-JdfMonitorIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JdfMonitorIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-JdfMonitorIOS/Pods-JdfMonitorIOS.release.xcconfig"; sourceTree = "<group>"; };
+		596834DF936995244C0A3316 /* libPods-JdfMonitorIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JdfMonitorIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43BF5A2205029FB00D2ABD2 /* JdfMonitorIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JdfMonitorIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43BF5A5205029FB00D2ABD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A43BF5A6205029FB00D2ABD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A43BF5A8205029FB00D2ABD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A43BF5A9205029FB00D2ABD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A43BF5AC205029FB00D2ABD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A43BF5AE205029FB00D2ABD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A43BF5B1205029FB00D2ABD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A43BF5B3205029FB00D2ABD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43BF5B4205029FB00D2ABD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A43BF5BA205029FC00D2ABD2 /* JdfMonitorIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JdfMonitorIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43BF5BE205029FC00D2ABD2 /* JdfMonitorIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JdfMonitorIOSTests.m; sourceTree = "<group>"; };
+		A43BF5C0205029FC00D2ABD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43BF5C5205029FC00D2ABD2 /* JdfMonitorIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JdfMonitorIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43BF5C9205029FC00D2ABD2 /* JdfMonitorIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JdfMonitorIOSUITests.m; sourceTree = "<group>"; };
+		A43BF5CB205029FC00D2ABD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43BF5DE20502B8B00D2ABD2 /* MainTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabController.h; sourceTree = "<group>"; };
+		A43BF5DF20502B8B00D2ABD2 /* MainTabController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabController.m; sourceTree = "<group>"; };
+		A43BF5E120502BF500D2ABD2 /* HomePageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageController.h; sourceTree = "<group>"; };
+		A43BF5E220502BF500D2ABD2 /* HomePageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageController.m; sourceTree = "<group>"; };
+		A43BF5E320502BF500D2ABD2 /* HomePageController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageController.xib; sourceTree = "<group>"; };
+		A43BF5E920502C4900D2ABD2 /* ScheduleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScheduleController.h; sourceTree = "<group>"; };
+		A43BF5EA20502C4900D2ABD2 /* ScheduleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScheduleController.m; sourceTree = "<group>"; };
+		A43BF5EF20502CB300D2ABD2 /* TaskController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskController.h; sourceTree = "<group>"; };
+		A43BF5F020502CB300D2ABD2 /* TaskController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskController.m; sourceTree = "<group>"; };
+		A43BF5F220502CD200D2ABD2 /* StoreKeeperController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoreKeeperController.h; sourceTree = "<group>"; };
+		A43BF5F320502CD200D2ABD2 /* StoreKeeperController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreKeeperController.m; sourceTree = "<group>"; };
+		A43BF5F520502CE600D2ABD2 /* InformationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InformationController.h; sourceTree = "<group>"; };
+		A43BF5F620502CE600D2ABD2 /* InformationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformationController.m; sourceTree = "<group>"; };
+		A49EF9B7205179EC00676114 /* TableHeaderSelectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableHeaderSelectView.h; sourceTree = "<group>"; };
+		A49EF9B8205179F100676114 /* TableHeaderSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableHeaderSelectView.m; sourceTree = "<group>"; };
+		A49EF9BC20517A6B00676114 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Common.h"; path = "../../../../../../opt/ios/SouthMedicalCam/Util/OC_Category/UIView+Common.h"; sourceTree = "<group>"; };
+		A49EF9BD20517A6B00676114 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+expanded.m"; path = "../../../../../../opt/ios/SouthMedicalCam/Util/OC_Category/UIColor+expanded.m"; sourceTree = "<group>"; };
+		A49EF9BE20517A6B00676114 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+expanded.h"; path = "../../../../../../opt/ios/SouthMedicalCam/Util/OC_Category/UIColor+expanded.h"; sourceTree = "<group>"; };
+		A49EF9BF20517A6C00676114 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Common.m"; path = "../../../../../../opt/ios/SouthMedicalCam/Util/OC_Category/UIView+Common.m"; sourceTree = "<group>"; };
+		A49EF9C220517F9000676114 /* EquipmentMonitorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EquipmentMonitorController.h; sourceTree = "<group>"; };
+		A49EF9C320517F9000676114 /* EquipmentMonitorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EquipmentMonitorController.m; sourceTree = "<group>"; };
+		A49EF9C520517FC200676114 /* VidController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VidController.h; sourceTree = "<group>"; };
+		A49EF9C620517FC200676114 /* VidController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VidController.m; sourceTree = "<group>"; };
+		A49EF9C820517FE300676114 /* ComputerRoomInspectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerRoomInspectController.h; sourceTree = "<group>"; };
+		A49EF9C920517FE300676114 /* ComputerRoomInspectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComputerRoomInspectController.m; sourceTree = "<group>"; };
+		A49EF9CB2051800200676114 /* JobsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsController.h; sourceTree = "<group>"; };
+		A49EF9CC2051800200676114 /* JobsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A43BF59F205029FB00D2ABD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFEFD85D0A0EF21E62ECD83 /* libPods-JdfMonitorIOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43BF5B7205029FC00D2ABD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43BF5C2205029FC00D2ABD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A944413822B8C71EBFA647E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05B3959825C63B8A48B5E330 /* Pods-JdfMonitorIOS.debug.xcconfig */,
+				2855C5486E0F8F152FE782A3 /* Pods-JdfMonitorIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A43BF599205029FB00D2ABD2 = {
+			isa = PBXGroup;
+			children = (
+				A49EF9BA20517A5500676114 /* Util */,
+				A43BF5DC20502AB100D2ABD2 /* View */,
+				A43BF5A4205029FB00D2ABD2 /* JdfMonitorIOS */,
+				A43BF5BD205029FC00D2ABD2 /* JdfMonitorIOSTests */,
+				A43BF5C8205029FC00D2ABD2 /* JdfMonitorIOSUITests */,
+				A43BF5A3205029FB00D2ABD2 /* Products */,
+				1A944413822B8C71EBFA647E /* Pods */,
+				F4487BC0C016FE2F15AB123D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A43BF5A3205029FB00D2ABD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A43BF5A2205029FB00D2ABD2 /* JdfMonitorIOS.app */,
+				A43BF5BA205029FC00D2ABD2 /* JdfMonitorIOSTests.xctest */,
+				A43BF5C5205029FC00D2ABD2 /* JdfMonitorIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A43BF5A4205029FB00D2ABD2 /* JdfMonitorIOS */ = {
+			isa = PBXGroup;
+			children = (
+				A43BF5A5205029FB00D2ABD2 /* AppDelegate.h */,
+				A43BF5A6205029FB00D2ABD2 /* AppDelegate.m */,
+				A43BF5A8205029FB00D2ABD2 /* ViewController.h */,
+				A43BF5A9205029FB00D2ABD2 /* ViewController.m */,
+				A43BF5AB205029FB00D2ABD2 /* Main.storyboard */,
+				A43BF5AE205029FB00D2ABD2 /* Assets.xcassets */,
+				A43BF5B0205029FB00D2ABD2 /* LaunchScreen.storyboard */,
+				A43BF5B3205029FB00D2ABD2 /* Info.plist */,
+				A43BF5B4205029FB00D2ABD2 /* main.m */,
+			);
+			path = JdfMonitorIOS;
+			sourceTree = "<group>";
+		};
+		A43BF5BD205029FC00D2ABD2 /* JdfMonitorIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A43BF5BE205029FC00D2ABD2 /* JdfMonitorIOSTests.m */,
+				A43BF5C0205029FC00D2ABD2 /* Info.plist */,
+			);
+			path = JdfMonitorIOSTests;
+			sourceTree = "<group>";
+		};
+		A43BF5C8205029FC00D2ABD2 /* JdfMonitorIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A43BF5C9205029FC00D2ABD2 /* JdfMonitorIOSUITests.m */,
+				A43BF5CB205029FC00D2ABD2 /* Info.plist */,
+			);
+			path = JdfMonitorIOSUITests;
+			sourceTree = "<group>";
+		};
+		A43BF5DC20502AB100D2ABD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A49EF9BE20517A6B00676114 /* UIColor+expanded.h */,
+				A49EF9BD20517A6B00676114 /* UIColor+expanded.m */,
+				A49EF9BC20517A6B00676114 /* UIView+Common.h */,
+				A49EF9BF20517A6C00676114 /* UIView+Common.m */,
+				A49EF9B6205179D300676114 /* CustomView */,
+				A43BF5DD20502ACD00D2ABD2 /* BaseClass */,
+				A43BF5E120502BF500D2ABD2 /* HomePageController.h */,
+				A43BF5E220502BF500D2ABD2 /* HomePageController.m */,
+				A43BF5E320502BF500D2ABD2 /* HomePageController.xib */,
+				A43BF5E920502C4900D2ABD2 /* ScheduleController.h */,
+				A43BF5EA20502C4900D2ABD2 /* ScheduleController.m */,
+				A43BF5EF20502CB300D2ABD2 /* TaskController.h */,
+				A43BF5F020502CB300D2ABD2 /* TaskController.m */,
+				A43BF5F220502CD200D2ABD2 /* StoreKeeperController.h */,
+				A43BF5F320502CD200D2ABD2 /* StoreKeeperController.m */,
+				A43BF5F520502CE600D2ABD2 /* InformationController.h */,
+				A43BF5F620502CE600D2ABD2 /* InformationController.m */,
+				A49EF9C220517F9000676114 /* EquipmentMonitorController.h */,
+				A49EF9C320517F9000676114 /* EquipmentMonitorController.m */,
+				A49EF9C520517FC200676114 /* VidController.h */,
+				A49EF9C620517FC200676114 /* VidController.m */,
+				A49EF9C820517FE300676114 /* ComputerRoomInspectController.h */,
+				A49EF9C920517FE300676114 /* ComputerRoomInspectController.m */,
+				A49EF9CB2051800200676114 /* JobsController.h */,
+				A49EF9CC2051800200676114 /* JobsController.m */,
+			);
+			name = View;
+			path = JdfMonitorIOS/View;
+			sourceTree = "<group>";
+		};
+		A43BF5DD20502ACD00D2ABD2 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				A43BF5DE20502B8B00D2ABD2 /* MainTabController.h */,
+				A43BF5DF20502B8B00D2ABD2 /* MainTabController.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		A49EF9B6205179D300676114 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				A49EF9B7205179EC00676114 /* TableHeaderSelectView.h */,
+				A49EF9B8205179F100676114 /* TableHeaderSelectView.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		A49EF9BA20517A5500676114 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A49EF9BB20517A5500676114 /* OC_Category */,
+			);
+			name = Util;
+			path = JdfMonitorIOS/Util;
+			sourceTree = "<group>";
+		};
+		A49EF9BB20517A5500676114 /* OC_Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OC_Category;
+			sourceTree = "<group>";
+		};
+		F4487BC0C016FE2F15AB123D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				596834DF936995244C0A3316 /* libPods-JdfMonitorIOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A43BF5A1205029FB00D2ABD2 /* JdfMonitorIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43BF5CE205029FC00D2ABD2 /* Build configuration list for PBXNativeTarget "JdfMonitorIOS" */;
+			buildPhases = (
+				455C3203B85346518BB0D332 /* [CP] Check Pods Manifest.lock */,
+				A43BF59E205029FB00D2ABD2 /* Sources */,
+				A43BF59F205029FB00D2ABD2 /* Frameworks */,
+				A43BF5A0205029FB00D2ABD2 /* Resources */,
+				3A5E3C3D40F6FB7E3EECF032 /* [CP] Embed Pods Frameworks */,
+				548CB562BB157BE59EF374E5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JdfMonitorIOS;
+			productName = JdfMonitorIOS;
+			productReference = A43BF5A2205029FB00D2ABD2 /* JdfMonitorIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A43BF5B9205029FC00D2ABD2 /* JdfMonitorIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43BF5D1205029FC00D2ABD2 /* Build configuration list for PBXNativeTarget "JdfMonitorIOSTests" */;
+			buildPhases = (
+				A43BF5B6205029FC00D2ABD2 /* Sources */,
+				A43BF5B7205029FC00D2ABD2 /* Frameworks */,
+				A43BF5B8205029FC00D2ABD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A43BF5BC205029FC00D2ABD2 /* PBXTargetDependency */,
+			);
+			name = JdfMonitorIOSTests;
+			productName = JdfMonitorIOSTests;
+			productReference = A43BF5BA205029FC00D2ABD2 /* JdfMonitorIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A43BF5C4205029FC00D2ABD2 /* JdfMonitorIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43BF5D4205029FC00D2ABD2 /* Build configuration list for PBXNativeTarget "JdfMonitorIOSUITests" */;
+			buildPhases = (
+				A43BF5C1205029FC00D2ABD2 /* Sources */,
+				A43BF5C2205029FC00D2ABD2 /* Frameworks */,
+				A43BF5C3205029FC00D2ABD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A43BF5C7205029FC00D2ABD2 /* PBXTargetDependency */,
+			);
+			name = JdfMonitorIOSUITests;
+			productName = JdfMonitorIOSUITests;
+			productReference = A43BF5C5205029FC00D2ABD2 /* JdfMonitorIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A43BF59A205029FB00D2ABD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = jdf;
+				TargetAttributes = {
+					A43BF5A1205029FB00D2ABD2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A43BF5B9205029FC00D2ABD2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A43BF5A1205029FB00D2ABD2;
+					};
+					A43BF5C4205029FC00D2ABD2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A43BF5A1205029FB00D2ABD2;
+					};
+				};
+			};
+			buildConfigurationList = A43BF59D205029FB00D2ABD2 /* Build configuration list for PBXProject "JdfMonitorIOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A43BF599205029FB00D2ABD2;
+			productRefGroup = A43BF5A3205029FB00D2ABD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A43BF5A1205029FB00D2ABD2 /* JdfMonitorIOS */,
+				A43BF5B9205029FC00D2ABD2 /* JdfMonitorIOSTests */,
+				A43BF5C4205029FC00D2ABD2 /* JdfMonitorIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A43BF5A0205029FB00D2ABD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43BF5B2205029FB00D2ABD2 /* LaunchScreen.storyboard in Resources */,
+				A43BF5E520502BF500D2ABD2 /* HomePageController.xib in Resources */,
+				A43BF5AF205029FB00D2ABD2 /* Assets.xcassets in Resources */,
+				A43BF5AD205029FB00D2ABD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43BF5B8205029FC00D2ABD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43BF5C3205029FC00D2ABD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A5E3C3D40F6FB7E3EECF032 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JdfMonitorIOS/Pods-JdfMonitorIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		455C3203B85346518BB0D332 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JdfMonitorIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		548CB562BB157BE59EF374E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JdfMonitorIOS/Pods-JdfMonitorIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A43BF59E205029FB00D2ABD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49EF9CD2051800200676114 /* JobsController.m in Sources */,
+				A43BF5AA205029FB00D2ABD2 /* ViewController.m in Sources */,
+				A43BF5E420502BF500D2ABD2 /* HomePageController.m in Sources */,
+				A49EF9C020517A6C00676114 /* UIColor+expanded.m in Sources */,
+				A43BF5B5205029FB00D2ABD2 /* main.m in Sources */,
+				A43BF5E020502B8B00D2ABD2 /* MainTabController.m in Sources */,
+				A49EF9B9205179F100676114 /* TableHeaderSelectView.m in Sources */,
+				A43BF5A7205029FB00D2ABD2 /* AppDelegate.m in Sources */,
+				A49EF9C120517A6C00676114 /* UIView+Common.m in Sources */,
+				A43BF5EB20502C4900D2ABD2 /* ScheduleController.m in Sources */,
+				A43BF5F120502CB300D2ABD2 /* TaskController.m in Sources */,
+				A49EF9C420517F9000676114 /* EquipmentMonitorController.m in Sources */,
+				A49EF9C720517FC200676114 /* VidController.m in Sources */,
+				A43BF5F720502CE600D2ABD2 /* InformationController.m in Sources */,
+				A49EF9CA20517FE300676114 /* ComputerRoomInspectController.m in Sources */,
+				A43BF5F420502CD200D2ABD2 /* StoreKeeperController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43BF5B6205029FC00D2ABD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43BF5BF205029FC00D2ABD2 /* JdfMonitorIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43BF5C1205029FC00D2ABD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43BF5CA205029FC00D2ABD2 /* JdfMonitorIOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A43BF5BC205029FC00D2ABD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A43BF5A1205029FB00D2ABD2 /* JdfMonitorIOS */;
+			targetProxy = A43BF5BB205029FC00D2ABD2 /* PBXContainerItemProxy */;
+		};
+		A43BF5C7205029FC00D2ABD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A43BF5A1205029FB00D2ABD2 /* JdfMonitorIOS */;
+			targetProxy = A43BF5C6205029FC00D2ABD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A43BF5AB205029FB00D2ABD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43BF5AC205029FB00D2ABD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A43BF5B0205029FB00D2ABD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43BF5B1205029FB00D2ABD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A43BF5CC205029FC00D2ABD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A43BF5CD205029FC00D2ABD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A43BF5CF205029FC00D2ABD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B3959825C63B8A48B5E330 /* Pods-JdfMonitorIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLHG37WS99;
+				INFOPLIST_FILE = JdfMonitorIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jdf.JdfMonitorIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A43BF5D0205029FC00D2ABD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2855C5486E0F8F152FE782A3 /* Pods-JdfMonitorIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLHG37WS99;
+				INFOPLIST_FILE = JdfMonitorIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jdf.JdfMonitorIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A43BF5D2205029FC00D2ABD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLHG37WS99;
+				INFOPLIST_FILE = JdfMonitorIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jdf.JdfMonitorIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JdfMonitorIOS.app/JdfMonitorIOS";
+			};
+			name = Debug;
+		};
+		A43BF5D3205029FC00D2ABD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLHG37WS99;
+				INFOPLIST_FILE = JdfMonitorIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jdf.JdfMonitorIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JdfMonitorIOS.app/JdfMonitorIOS";
+			};
+			name = Release;
+		};
+		A43BF5D5205029FC00D2ABD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLHG37WS99;
+				INFOPLIST_FILE = JdfMonitorIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jdf.JdfMonitorIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JdfMonitorIOS;
+			};
+			name = Debug;
+		};
+		A43BF5D6205029FC00D2ABD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLHG37WS99;
+				INFOPLIST_FILE = JdfMonitorIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.jdf.JdfMonitorIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JdfMonitorIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A43BF59D205029FB00D2ABD2 /* Build configuration list for PBXProject "JdfMonitorIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43BF5CC205029FC00D2ABD2 /* Debug */,
+				A43BF5CD205029FC00D2ABD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43BF5CE205029FC00D2ABD2 /* Build configuration list for PBXNativeTarget "JdfMonitorIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43BF5CF205029FC00D2ABD2 /* Debug */,
+				A43BF5D0205029FC00D2ABD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43BF5D1205029FC00D2ABD2 /* Build configuration list for PBXNativeTarget "JdfMonitorIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43BF5D2205029FC00D2ABD2 /* Debug */,
+				A43BF5D3205029FC00D2ABD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43BF5D4205029FC00D2ABD2 /* Build configuration list for PBXNativeTarget "JdfMonitorIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43BF5D5205029FC00D2ABD2 /* Debug */,
+				A43BF5D6205029FC00D2ABD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A43BF59A205029FB00D2ABD2 /* Project object */;
+}
